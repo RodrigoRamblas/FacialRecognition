@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ProjectOne.Models;
+using ProjectOne.Models.ViewModels;
 
 namespace ProjectOne.Controllers
 {
@@ -17,7 +18,8 @@ namespace ProjectOne.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVC App from C# Course";
+            ViewData["Professor"] = "Rodrigo Ramblas ";
 
             return View();
         }

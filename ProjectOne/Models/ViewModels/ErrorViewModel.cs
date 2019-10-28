@@ -1,6 +1,6 @@
 using System;
 
-namespace ProjectOne.Models
+namespace ProjectOne.Models.ViewModels
 {
     public class ErrorViewModel
     {
